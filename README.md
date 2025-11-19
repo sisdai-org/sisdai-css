@@ -226,9 +226,8 @@ el idioma español se respeta la versión original de acuerdo al proyecto
 
 ## Contribuir
 
-Por el momento sólo quienes sean
-parte de un equipo de investigación del capítulo de un [ENI](https://eni.conahcyt.mx)
-podrán levantar issues en este repositorio. El equipo del [Sisdai](https://sisdai.conahcyt.mx) se encargará de mantenerlo.
+El Sisdai es un proyecto de software libre y código abierto, por lo que las contribuciones son bienvenidas. Por favor ve 
+al archivo CONTRIBUTING.md para que conozcas la guía de contribuciones.
 
 ___
 
