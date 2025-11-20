@@ -105,7 +105,7 @@ que tu contribución se alinee con el objetivo del proyecto.
 
 ## **✅ Requisitos para que tu PR sea aceptado**
 
-- Debe seguir las Convenciones del Sisdai:
+- Debe seguir las [Convenciones del Sisdai](CONVENCIONES_SISDAI.md):
   - Accesibilidad
   - En español
   - Con criterios de *Diseño de la información*
@@ -114,8 +114,8 @@ las carpetas de `test` o alguna otra que aplique al proyecto.
 - Debe incluir pruebas nuevas si añade o mejora alguna funcionalidad.
 - La documentación debe estar actualizada.
 - El nombre de la rama y los mensajes de commit deben seguir las convenciones del Sisdai como proyecto.
-- Debe respetar el [Código de Conducta](CODECONDUCT.md) en toda la comunicación.
-- Debes de modificar el `CHANGELOG.md` de acuerdo a las convenciones que se describen en el mismo.
+- Debe respetar el [Código de Conducta](CODE_OF_CONDUCT.md) en toda la comunicación.
+- Debes de modificar el [_Changelog_](CHANGELOG.md`) de acuerdo a las convenciones que se describen en el mismo.
 
 
 --- 
