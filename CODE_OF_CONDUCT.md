@@ -21,6 +21,19 @@ cualquier persona cuya conducta dañe la integridad y salud de la comunidad, sin
 
 ## Principios que guían este proyecto
 
+✅ **Inclusión.** Reconocemos que barreras históricas y estructurales han marginado a muchas personas en la tecnología.
+Nos esforzamos activamente por crear espacios donde todas las personas, independientemente de su edad, género,
+orientación sexual, identidad de género, raza, etnia, nacionalidad, religión, discapacidad, nivel socioeconómico,
+experiencia técnica o contexto geográfico, se sientan bienvenidas, valoradas y capaces de participar plenamente.
+
+✅ **Accesibilidad.** Nos comprometemos a hacer que nuestras herramientas, documentación y canales de comunicación
+sean lo más accesibles posible. Esto incluye:
+- Usar lenguaje claro y evitar jerga técnica innecesaria.
+- Proveer alternativas textuales para imágenes (alt text).
+- Preferir formatos abiertos y compatibles con lectores de pantalla.
+- Considerar necesidades diversas en reuniones (horarios, modos de participación, transcripciones cuando sea posible).
+- Aceptar y valorar contribuciones que mejoren la accesibilidad del software.
+
 ✅ **Respeto.** Trata a todas las personas con dignidad, empatía y cortesía, incluso (y especialmente) en desacuerdos técnicos. 
 Sé crítica de las ideas más no de las personas. Mantén una escucha activa.
 
@@ -28,19 +41,7 @@ Sé crítica de las ideas más no de las personas. Mantén una escucha activa.
 el apoyo mutuo y la co-responsabilidad. Celebramos las contribuciones grandes y pequeñas: código, documentación, 
 traducción, pruebas, diseño, mentoría, reporte de errores y más.
 
-✅ **Inclusión.** Reconocemos que barreras históricas y estructurales han marginado a muchas personas en la tecnología. 
-Nos esforzamos activamente por crear espacios donde todas las personas, independientemente de su edad, género, 
-orientación sexual, identidad de género, raza, etnia, nacionalidad, religión, discapacidad, nivel socioeconómico, 
-experiencia técnica o contexto geográfico, se sientan bienvenidas, valoradas y capaces de participar plenamente.
 
-✅ **Accesibilidad.** Nos comprometemos a hacer que nuestras herramientas, documentación y canales de comunicación 
-sean lo más accesibles posible. Esto incluye:
-
-- Usar lenguaje claro y evitar jerga técnica innecesaria.
-- Proveer alternativas textuales para imágenes (alt text).
-- Preferir formatos abiertos y compatibles con lectores de pantalla.
-- Considerar necesidades diversas en reuniones (horarios, modos de participación, transcripciones cuando sea posible).
-- Aceptar y valorar contribuciones que mejoren la accesibilidad del software.
 
 ✅ **Colaboración.** Favorecemos el trabajo en equipo, la transparencia y el aprendizaje mutuo. 
 Compartimos conocimientos de forma generosa, damos retroalimentación constructiva y celebramos los logros colectivos. 

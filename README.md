@@ -224,12 +224,19 @@ Esta licencia se encuentra disponible en inglés porque aunque el Sisdai privile
 el idioma español se respeta la versión original de acuerdo al proyecto
 [GNU](https://www.gnu.org/licenses/licenses.html).
 
-## Contribuir
+## Contribuir y Código de Conducta
 
-El Sisdai es un proyecto de software libre y código abierto, por lo que las contribuciones son bienvenidas. Por favor ve 
-al archivo CONTRIBUTING.md para que conozcas la guía de contribuciones.
+El Sisdai es un proyecto de software libre y código abierto, basado en principios de inclusión, accesibilidad, respeto
+y comunidad. Si deseas contribuir al mismo te invitamos a leer las siguientes guías:
+
+- Guía de contribuciones: [_CONTRIBUTING.md_](CONTRIBUTING.md)
+- Código de conducta: [_CODE_OF_CONDUCT.md_](CODE_OF_CONDUCT.md)
+- Convenciones del Sisdai: [_CONVENCIONES_SISDAI.md_](CONVENCIONES_SISDAI.md)
 
 ___
+___
+
+## Anexos
 
 ### ¿Cómo agregar un nuevo estilo?
 
