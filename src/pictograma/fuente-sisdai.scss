@@ -1,0 +1,145 @@
+@font-face {
+  font-family: ff-sisdai;
+  src:url('fonts/sisdai.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='pic-sisdai-']::before,
+[class*=' pic-sisdai-']::before {
+  font-family: ff-sisdai;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pic-sisdai-accesibilidad::before {
+  content: 'A' / 'Accesibilidad';
+}
+.pic-sisdai-actualizar::before {
+  content: 'B' / 'Actualizar';
+}
+.pic-sisdai-adelantar-10::before {
+  content: 'C' / 'Adelantar-10';
+}
+.pic-sisdai-agregar::before {
+  content: 'D' / 'Agregar';
+}
+.pic-sisdai-alerta::before {
+  content: 'E' / 'Alerta';
+}
+.pic-sisdai-aprobado::before {
+  content: 'F' / 'Aprobado';
+}
+.pic-sisdai-descargar::before {
+  content: 'G' / 'Descargar';
+}
+.pic-sisdai-subir-archivo::before {
+  content: 'H' / 'Subir archivo';
+}
+.pic-sisdai-arrastrar::before {
+  content: 'I' / 'Arrastrar';
+}
+.pic-sisdai-ayuda::before {
+  content: 'J' / 'Ayuda';
+}
+.pic-sisdai-bajar-capa::before {
+  content: 'K' / 'Bajar capa';
+}
+.pic-sisdai-buscar::before {
+  content: 'L' / 'Buscar';
+}
+.pic-sisdai-calendario::before {
+  content: 'M' / 'Calendario';
+}
+.pic-sisdai-cambiar-tipografia::before {
+  content: 'N' / 'Cambiar tipografía';
+}
+.pic-sisdai-capa-puntos::before {
+  content: 'O' / 'Capa puntos';
+}
+.pic-sisdai-capas::before {
+  content: 'P' / 'Capas';
+}
+.pic-sisdai-casilla-verificada::before {
+  content: 'Q' / 'Casilla verificada';
+}
+.pic-sisdai-casilla::before {
+  content: 'R' / 'Casilla';
+}
+.pic-sisdai-cerrar::before {
+  content: 'S' / 'Cerrar';
+}
+.pic-sisdai-colaborar::before {
+  content: 'T' / 'Colaborar';
+}
+.pic-sisdai-compartir::before {
+  content: 'U' / 'Compartir';
+}
+.pic-sisdai-contraste::before {
+  content: 'V' / 'Contraste';
+}
+.pic-sisdai-control-comenzar::before {
+  content: 'W' / 'comenzar';
+}
+.pic-sisdai-control-detener::before {
+  content: 'X' / 'detener';
+}
+.pic-sisdai-control-final::before {
+  content: 'Y' / 'final';
+}
+.pic-sisdai-control-inicio::before {
+  content: 'Z' / 'inicio';
+}
+.pic-sisdai-control-pausa::before {
+  content: '[' / 'pausa';
+}
+.pic-sisdai-copiar::before {
+  content: '\005C' / 'copiar';
+}
+.pic-sisdai-documento-csv::before {
+  content: ']' / 'Documento-csv';
+}
+.pic-sisdai-documento-geojson::before {
+  content: '^' / 'Documento-geojson';
+}
+.pic-sisdai-documento-geopaquete::before {
+  content: '_' / 'Documento-geopaquete';
+}
+.pic-sisdai-documento-pdf::before {
+  content: '`' / 'Documento-pdf';
+}
+.pic-sisdai-documento-png::before {
+  content: 'a' / 'Documento-png';
+}
+.pic-sisdai-documento-ppt::before {
+  content: 'b' / 'Documento-ppt';
+}
+.pic-sisdai-documento-word::before {
+  content: 'c' / 'Documento-word';
+}
+.pic-sisdai-documento::before {
+  content: 'd' / 'Documento';
+}
+.pic-sisdai-editar::before {
+  content: 'e' / 'Editar';
+}
+.pic-sisdai-eliminar::before {
+  content: 'f' / 'Eliminar';
+}
+.pic-sisdai-enlace-externo::before {
+  content: 'g' / 'Enlace externo';
+}
+.pic-sisdai-enlace-subrayado::before {
+  content: 'h' / 'Enlace subrayado';
+}
+.pic-sisdai-error::before {
+  content: 'i' / 'Error';
+}
+.pic-sisdai-flkt::before {
+  content: 'j' / 'flkt';
+}

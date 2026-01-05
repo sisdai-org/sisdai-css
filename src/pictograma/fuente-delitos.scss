@@ -1,0 +1,72 @@
+@font-face {
+  font-family: ff-delitos;
+  src:url('fonts/delitos.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='pic-delito-'],
+[class*=' pic-delito-'] {
+  vertical-align: middle;
+}
+
+[class^='pic-delito-']::before,
+[class*=' pic-delito-']::before {
+  font-family: ff-delitos;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pic-delito-a::before {
+  content: 'A' / 'Feminicidio con arma blanca';
+}
+.pic-delito-b::before {
+  content: 'B' / 'Feminicidio con arma de fuego';
+}
+.pic-delito-c::before {
+  content: 'C' / 'Feminicidio con otro elemento';
+}
+.pic-delito-d::before {
+  content: 'D' / 'Extorsión';
+}
+.pic-delito-e::before {
+  content: 'E' / 'Homicidio con arma blanca';
+}
+.pic-delito-f::before {
+  content: 'F' / 'Homicidio con otro elemento';
+}
+.pic-delito-g::before {
+  content: 'G' / 'Homicidio con arma de fuego';
+}
+.pic-delito-h::before {
+  content: 'H' / 'Lesiones dolosas';
+}
+.pic-delito-i::before {
+  content: 'I' / 'Fraude';
+}
+.pic-delito-j::before {
+  content: 'J' / 'Robo a bordo de metrobus sin violencia';
+}
+.pic-delito-k::before {
+  content: 'K' / 'Robo a bordo de metrobus con violencia';
+}
+.pic-delito-l::before {
+  content: 'L' / 'Robo a bordo de microbus con violencia';
+}
+.pic-delito-m::before {
+  content: 'M' / 'Robo a bordo de metro con violencia';
+}
+.pic-delito-n::before {
+  content: 'N' / 'Robo a bordo de metro sin violencia';
+}
+.pic-delito-o::before {
+  content: 'O' / 'Robo a bordo de microbus sin violencia';
+}
+.pic-delito-p::before {
+  content: 'P' / 'Feminicidio no especificado';
+}

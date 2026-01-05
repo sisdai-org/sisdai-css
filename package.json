@@ -17,6 +17,7 @@
     "docs:dev": "cd docs && npm run dev",
     "docs:pprod": "cd docs && npm run preview-prod",
     "docs:scss": "sass --watch src/sisdai.scss:docs/src/assets/sisdai.css --style expanded",
+    "docs:fonts": "cp -r src/pictograma/fonts docs/src/assets/",
     "pruebas:stylelint": "npx stylelint '**/*.scss'",
     "pruebas:sass": "sass --verbose src/sisdai.scss:dist/sisdai.min.css"
   },
