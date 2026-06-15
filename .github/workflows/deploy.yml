@@ -27,7 +27,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /estilos/
+          server-dir: /dev-estilos/
 
       - name: Deploy a ambiente de PRODUCCIÓN (rama main → estilos.sisdai.org)
         if: github.ref == 'refs/heads/main'
@@ -37,4 +37,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /dev-estilos/
+          server-dir: /estilos/
