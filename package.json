@@ -1,5 +1,5 @@
 {
-  "name": "@centrogeomx/sisdai-css",
+  "name": "@sisdai-org/sisdai-css",
   "version": "1.10.2",
   "publishConfig": {
     "access": "public"
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/CentroGeo/sisdai-css/issues"
   },
-  "homepage": "https://sisdai-css.conahcyt.mx",
+  "homepage": "https://estilos.sisdai.org",
   "dependencies": {
     "sass": "^1.86.0"
   },
@@ -44,14 +44,16 @@
     "Conahcyt"
   ],
   "contributors": [
-    "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)",
+    "Flkt <flkt.crnpio@gmail.com> (https://github.com/flkt-crnpio)",
     "Andrés Martínez González <andres.geotec@gmail.com> (https://github.com/andres-geotec)",
     "Daniel Gómez Hernández <gomezhernandez.dan@gmail.com> (https://github.com/jdanielgoh)",
-    "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)",
     "Eric Torres <erictorres.velasco@hotmail.com> (https://github.com/ciretorres)",
-    "Flkt <flkt.crnpio@gmail.com> (https://github.com/flkt-crnpio)",
     "Miguel Ángel Martínez <migueldnt.dev@gmail.com> (https://github.com/migueldnt)",
     "Paulina Pradel <pradel.paulina@gmail.com> (https://github.com/paupradel)"
+],
+  "pastContributors": [
+    "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)",
+    "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)"
   ],
   "files": [
     "dist",
