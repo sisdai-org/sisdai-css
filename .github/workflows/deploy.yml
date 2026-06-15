@@ -16,7 +16,8 @@ jobs:
 
       - name: Instalar dependencias y compilar
         run: |
-          npm run docs:build
+          npm run docs:install
+          npm run build
       - name: Despliegue a ambiente de desarrollo DEVELOP (rama develop → dev-estilos.sisdai.org)
         if: github.ref == 'refs/heads/develop'
         uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287
