@@ -1,6 +1,6 @@
 {
   "name": "@sisdai-org/sisdai-css",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "publishConfig": {
     "access": "public"
   },
@@ -50,7 +50,7 @@
     "Eric Torres <erictorres.velasco@hotmail.com> (https://github.com/ciretorres)",
     "Miguel Ángel Martínez <migueldnt.dev@gmail.com> (https://github.com/migueldnt)",
     "Paulina Pradel <pradel.paulina@gmail.com> (https://github.com/paupradel)"
-],
+  ],
   "pastContributors": [
     "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)",
     "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)"
