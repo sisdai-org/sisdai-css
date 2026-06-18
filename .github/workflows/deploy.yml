@@ -19,7 +19,7 @@ jobs:
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
           name: dist
-          path: ./dist/
+          path: /docs/dist/
 
   despliegue-desarrollo:
     needs: build
@@ -33,14 +33,14 @@ jobs:
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
         with:
           name: dist
-          path: ./dist/
+          path: /docs/dist/
       - name: Despliegue a desarrollo
         uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: docs/dist/
+          local-dir: /docs/dist/
           server-dir: /dev-estilos/
 
   despliegue-produccion:
@@ -55,12 +55,12 @@ jobs:
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
         with:
           name: dist
-          path: ./dist/
+          path: /docs/dist/
       - name: Despliegue a producción
         uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: docs/dist/
+          local-dir: /docs/dist/
           server-dir: /estilos/
