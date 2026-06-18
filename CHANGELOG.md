@@ -8,6 +8,14 @@ y este proyecto se adhiere al [Versionamiento semántico](https://semver.org/spe
 \*Nota: Este Changelog se comenzó el 2024-10-22. Se documentaron hacia atrás los cambios más relevantes
 de la biblioteca. Por lo tanto no se listan aquí todos los tags existentes.
 
+## [1.10.3] - 202--06-17
+
+### Arreglado (Fixed)
+
+- Se modifica deploy.yml para que se muestren los despliegues en la interfaz de GitHub
+
+### Arreglado (Fixed)
+
 ## [1.10.2] - 2025-09-25
 
 ### Arreglado (Fixed)
