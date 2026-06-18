@@ -16,7 +16,7 @@ jobs:
           npm install
           npm run build
       - name: Guardar artefacto de build
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        uses: actions/upload-artifact@v4
         with:
           name: dist
           path: /docs/dist/
@@ -30,7 +30,7 @@ jobs:
       url: https://dev-estilos.sisdai.org
     steps:
       - name: Descargar artefacto
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        uses: actions/download-artifact@v4
         with:
           name: dist
           path: /docs/dist/
@@ -52,7 +52,7 @@ jobs:
       url: https://estilos.sisdai.org
     steps:
       - name: Descargar artefacto
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        uses: actions/download-artifact@v4
         with:
           name: dist
           path: /docs/dist/
