@@ -1,5 +1,4 @@
-name: Despliegue sisdai-estilos
-
+name: Despliegue sisdai-css
 on:
   push:
     branches:
@@ -7,19 +6,35 @@ on:
       - develop
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout código
         uses: actions/checkout@v6
-
       - name: Instalar dependencias y compilar
         run: |
-          npm run docs:install
-          npm run docs:build
-      - name: Despliegue a ambiente de desarrollo DEVELOP (rama develop → dev-estilos.sisdai.org)
-        if: github.ref == 'refs/heads/develop'
+          npm install
+          npm run build
+      - name: Guardar artefacto de build
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: dist
+          path: ./dist/
+
+  despliegue-desarrollo:
+    needs: build
+    if: github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+    environment:
+      name: desarrollo
+      url: https://dev-estilos.sisdai.org
+    steps:
+      - name: Descargar artefacto
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        with:
+          name: dist
+          path: ./dist/
+      - name: Despliegue a desarrollo
         uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -28,8 +43,20 @@ jobs:
           local-dir: docs/dist/
           server-dir: /dev-estilos/
 
-      - name: Deploy a ambiente de PRODUCCIÓN (rama main → estilos.sisdai.org)
-        if: github.ref == 'refs/heads/main'
+  despliegue-produccion:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: produccion
+      url: https://estilos.sisdai.org
+    steps:
+      - name: Descargar artefacto
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        with:
+          name: dist
+          path: ./dist/
+      - name: Despliegue a producción
         uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287
         with:
           server: ${{ secrets.FTP_SERVER }}
